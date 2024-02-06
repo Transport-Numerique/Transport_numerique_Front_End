@@ -9,7 +9,7 @@ function App() {
         <h1 className="title">Transport Numérique</h1>
         <div className="phrase">Explorez le futur avec notre solution de transport numérique</div>
         <div className="links">
-          <a href="#" className="continue-link">Cliquez ici  pour continuer</a>
+          <a href="" className="continue-link">Cliquez ici  pour continuer</a>
         </div>
       </div>
     </div>
