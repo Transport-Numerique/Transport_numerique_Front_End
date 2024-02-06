@@ -1,54 +1,70 @@
-                Cahier des Charges - Projet Transport Numérique
+# Getting Started with Create React App
 
-    1. Introduction:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Le projet "Transport Numérique" vise à développer une plateforme en ligne pour simplifier et améliorer l'expérience des utilisateurs dans le domaine du transport. Cette plateforme permettra aux utilisateurs de planifier, réserver et suivre leurs trajets de manière efficace et intuitive.
+## Available Scripts
 
-2. Objectifs du Projet:
+In the project directory, you can run:
 
-Faciliter la planification et la réservation de trajets.
-Fournir des informations en temps réel sur les transports disponibles.
-Offrir une interface conviviale pour les utilisateurs finaux.
-Assurer la sécurité des données et des transactions.
+### `npm start`
 
-3. Fonctionnalités Principales:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-3.1 Page d'Accueil
-Fond d'écran attrayant avec des liens de connexion et d'inscription.
-Messages de bienvenue personnalisés.
-3.2 Authentification
-Système d'inscription et de connexion sécurisé.
-Gestion des profils utilisateur.
-3.3 Planification de Trajets
-Sélection de points de départ et d'arrivée.
-Affichage des options de transport disponibles.
-3.4 Réservation
-Processus de réservation simple et intuitif.
-Confirmation de la réservation avec des détails.
-3.5 Suivi en Temps Réel
-Suivi des véhicules en temps réel.
-Mises à jour sur les retards et les modifications.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-4. Exigences Techniques:
+### `npm test`
 
-Utilisation de HTML, CSS ,Bootstrap et JavaScript pour le frontend et Java Spring Boot pour le backend .
-Utilisation d'une base de données(Postgresql) pour stocker les informations des utilisateurs et les données de réservation.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-5. Sécurité :
+### `npm run build`
 
-Utilisation de HTTPS pour sécuriser les communications.
-Gestion sécurisée des mots de passe avec des techniques de hachage.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-6. Design:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Interface utilisateur (UI) attrayante et conviviale.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-7. Tests:
+### `npm run eject`
 
-Mise en place de tests unitaires et d'intégration.
-Tests de sécurité pour identifier les vulnérabilités potentielles.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-8. Hébergement et Déploiement:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Choix d'une plateforme d'hébergement.
-Automatisation du processus de déploiement avec des outils comme Docker et Kubernetes.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
