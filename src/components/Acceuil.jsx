@@ -28,6 +28,4 @@ const Acceuil = () => {
     );
 };
        
-
-
 export default Acceuil; 
